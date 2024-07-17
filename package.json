@@ -7,10 +7,25 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
+    "react-detect-offline": "^2.4.5",
     "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.2.1",
+    "react-network": "^1.0.1",
+    "react-network-status": "^1.0.2",
+    "react-network-status-notifier": "^1.1.0",
+    "react-notifications-component": "^4.0.1",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.5",
+    "web-push": "^3.6.7",
     "web-vitals": "^2.1.4"
   },
+  "exports": {
+  "./dist/react-hot-toast.css": "./dist/react-hot-toast.css"
+},
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
